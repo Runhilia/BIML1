@@ -1,0 +1,94 @@
+test 10 epoch, 5e-05 eta, 64 batch, Adam optim
+Epoch 1, accuracy: 0.9750, loss: 0.0808
+Epoch 2, accuracy: 0.9809, loss: 0.0649
+Epoch 3, accuracy: 0.9825, loss: 0.0589
+Epoch 4, accuracy: 0.9830, loss: 0.0594
+Epoch 5, accuracy: 0.9829, loss: 0.0602
+Epoch 6, accuracy: 0.9842, loss: 0.0580
+Epoch 7, accuracy: 0.9857, loss: 0.0550
+Epoch 8, accuracy: 0.9861, loss: 0.0521
+Epoch 9, accuracy: 0.9862, loss: 0.0551
+Epoch 10, accuracy: 0.9873, loss: 0.0524
+Test accuracy: 0.9864, loss: 0.0488
+
+test 10 epoch, 0.0001 eta, 8 batch, Adam optim
+Epoch 1, accuracy: 0.9754, loss: 0.0833
+Epoch 2, accuracy: 0.9860, loss: 0.0497
+Epoch 3, accuracy: 0.9806, loss: 0.0700
+Epoch 4, accuracy: 0.9882, loss: 0.0482
+Epoch 5, accuracy: 0.9908, loss: 0.0339
+Epoch 6, accuracy: 0.9862, loss: 0.0456
+Epoch 7, accuracy: 0.9898, loss: 0.0360
+Epoch 8, accuracy: 0.9863, loss: 0.0486
+Epoch 9, accuracy: 0.9883, loss: 0.0377
+Epoch 10, accuracy: 0.9890, loss: 0.0366
+Test accuracy: 0.9923, loss: 0.0297
+
+test 10 epoch, 0.0001 eta, 16 batch, Adam optim
+Epoch 1, accuracy: 0.9767, loss: 0.0749
+Epoch 2, accuracy: 0.9801, loss: 0.0637
+Epoch 3, accuracy: 0.9822, loss: 0.0551
+Epoch 4, accuracy: 0.9864, loss: 0.0457
+Epoch 5, accuracy: 0.9883, loss: 0.0389
+Epoch 6, accuracy: 0.9898, loss: 0.0359
+Epoch 7, accuracy: 0.9890, loss: 0.0378
+Epoch 8, accuracy: 0.9858, loss: 0.0504
+Epoch 9, accuracy: 0.9910, loss: 0.0290
+Epoch 10, accuracy: 0.9908, loss: 0.0334
+Test accuracy: 0.9934, loss: 0.0315
+
+test 10 epoch, 0.0001 eta, 32 batch, Adam optim
+Epoch 1, accuracy: 0.9819, loss: 0.0568
+Epoch 2, accuracy: 0.9843, loss: 0.0471
+Epoch 3, accuracy: 0.9848, loss: 0.0510
+Epoch 4, accuracy: 0.9863, loss: 0.0485
+Epoch 5, accuracy: 0.9885, loss: 0.0381
+Epoch 6, accuracy: 0.9907, loss: 0.0344
+Epoch 7, accuracy: 0.9900, loss: 0.0333
+Epoch 8, accuracy: 0.9909, loss: 0.0369
+Epoch 9, accuracy: 0.9935, loss: 0.0245
+Epoch 10, accuracy: 0.9910, loss: 0.0290
+Test accuracy: 0.9936, loss: 0.0284
+
+test 10 epoch, 0.0001 eta, 64 batch, Adam optim
+Epoch 1, accuracy: 0.9768, loss: 0.0723
+Epoch 2, accuracy: 0.9792, loss: 0.0660
+Epoch 3, accuracy: 0.9840, loss: 0.0563
+Epoch 4, accuracy: 0.9855, loss: 0.0483
+Epoch 5, accuracy: 0.9857, loss: 0.0468
+Epoch 6, accuracy: 0.9851, loss: 0.0502
+Epoch 7, accuracy: 0.9863, loss: 0.0513
+Epoch 8, accuracy: 0.9887, loss: 0.0414
+Epoch 9, accuracy: 0.9887, loss: 0.0394
+Epoch 10, accuracy: 0.9863, loss: 0.0489
+Test accuracy: 0.9867, loss: 0.0476
+
+test 10 epoch, 0.0001 eta, 128 batch, Adam optim
+Epoch 1, accuracy: 0.9765, loss: 0.0773
+Epoch 2, accuracy: 0.9825, loss: 0.0588
+Epoch 3, accuracy: 0.9827, loss: 0.0566
+Epoch 4, accuracy: 0.9835, loss: 0.0585
+Epoch 5, accuracy: 0.9845, loss: 0.0529
+Epoch 6, accuracy: 0.9852, loss: 0.0570
+Epoch 7, accuracy: 0.9866, loss: 0.0506
+Epoch 8, accuracy: 0.9870, loss: 0.0523
+Epoch 9, accuracy: 0.9806, loss: 0.0721
+Epoch 10, accuracy: 0.9864, loss: 0.0504
+Test accuracy: 0.9860, loss: 0.0488
+
+test 10 epoch, 0.0001 eta, 256 batch, Adam optim
+Epoch 1, accuracy: 0.9755, loss: 0.0762
+Epoch 2, accuracy: 0.9790, loss: 0.0635
+Epoch 3, accuracy: 0.9802, loss: 0.0628
+Epoch 4, accuracy: 0.9831, loss: 0.0583
+Epoch 5, accuracy: 0.9838, loss: 0.0582
+Epoch 6, accuracy: 0.9832, loss: 0.0619
+Epoch 7, accuracy: 0.9781, loss: 0.0831
+Epoch 8, accuracy: 0.9805, loss: 0.0724
+Epoch 9, accuracy: 0.9833, loss: 0.0656
+Epoch 10, accuracy: 0.9806, loss: 0.0782
+Test accuracy: 0.9819, loss: 0.0723
+
+Meilleur batch size: 32, accuracy: 0.9936, loss: 0.0284
+
+

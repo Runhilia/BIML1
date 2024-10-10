@@ -1,0 +1,32 @@
+test 10 epoch, 0.1 eta, 1 batch 
+Donnees validation : 0 : tensor([0.9652], device='cuda:0')
+Donnees validation : 1 : tensor([0.9760], device='cuda:0')
+Donnees validation : 2 : tensor([0.9782], device='cuda:0')
+Donnees validation : 3 : tensor([0.9794], device='cuda:0')
+Donnees validation : 4 : tensor([0.9799], device='cuda:0')
+Donnees validation : 5 : tensor([0.9821], device='cuda:0')
+Donnees validation : 6 : tensor([0.9832], device='cuda:0')
+Donnees validation : 7 : tensor([0.9835], device='cuda:0')
+Donnees validation : 8 : tensor([0.9840], device='cuda:0')
+Donnees validation : 9 : tensor([0.9841], device='cuda:0')
+Hidden layers : [650, 350, 350] : tensor([0.9867], device='cuda:0')
+
+test 15 epoch, 0.1 eta, 1 batch 
+Donnees validation : 0 : tensor([0.9629], device='cuda:0')
+Donnees validation : 1 : tensor([0.9745], device='cuda:0')
+Donnees validation : 2 : tensor([0.9761], device='cuda:0')
+Donnees validation : 3 : tensor([0.9810], device='cuda:0')
+Donnees validation : 4 : tensor([0.9820], device='cuda:0')
+Donnees validation : 5 : tensor([0.9813], device='cuda:0')
+Donnees validation : 6 : tensor([0.9822], device='cuda:0')
+Donnees validation : 7 : tensor([0.9843], device='cuda:0')
+Donnees validation : 8 : tensor([0.9856], device='cuda:0')
+Donnees validation : 9 : tensor([0.9852], device='cuda:0')
+Donnees validation : 10 : tensor([0.9858], device='cuda:0')
+Donnees validation : 11 : tensor([0.9855], device='cuda:0')
+Donnees validation : 12 : tensor([0.9863], device='cuda:0')
+Donnees validation : 13 : tensor([0.9865], device='cuda:0')
+Donnees validation : 14 : tensor([0.9864], device='cuda:0')
+Hidden layers : [650, 350, 350] : tensor([0.9864], device='cuda:0')
+
+Meilleur resultat :tensor([0.9867], device='cuda:0') avec 10
