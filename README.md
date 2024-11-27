@@ -2,21 +2,8 @@ Marc Angéline - Rapport Projet Bio-Inspired Machine Learning
 -----
 
 
-# Perceptron
-## Les différentes données
-- data_train : données d'entrainement de taille [63000, 784] ->  63000 images de 784 pixels
-- label_train : labels d'entrainement de taille [63000, 10] ->  63000 labels de 10 neurones correspondant à chaque chiffre de 0 à 9
-- data_test : données de test de taille [7000, 784] -> 7000 images de 784 pixels
-- label_test : labels de test de taille [7000, 10] ->  7000 labels de 10 neurones
-- x : données d'entrée de taille [5, 784] -> 5 images (vecteurs) de 784 pixels, durant la phase d'apprentissage, les données sont lus avec un batch de 5. C'est à dire que le modèle lit les images 5 par 5.
-- x : données d'entrée de taille [1, 784] -> 1 image de 784 pixels, durant la phase de test, les données sont lu une par une.
-- y : labels de taille [5, 10] -> 5 labels de 10 neurones, pareil que pour les données d'entrée, les labels sont lus par batch de 5 durant la phase d'apprentissage.
-- y : labels de taille [1, 10] -> 1 label de 10 neurones, durant la phase de test, les labels sont lus un par un.
-- w : poids de taille [784, 10] -> 784 vecteurs correspondant à chaque pixel d'une image et ceux-ci pour chaque neurones.
-- t : tensor de taille [5, 10] -> 5 labels de 10 neurones pendant la phase d'apprentissage
-- t : tensor de taille [1, 10] -> 1 label de 10 neurones pendant la phase de test
-- grad : gradient de taille [5, 10] -> 5 vecteurs d'image avec 10 neurones chacun
-- b : biais de taille [1, 10] -> 1 biais de 10 neurones
+# Introduction
+Le but de ce projet était de mettre en place plusieurs architectures de réseaux de neurones et de les entraîner sur le dataset MNIST pour faire de la reconnaissance/prédiction de nombres. J'ai réalisé ce projet dans le cadre du cours Bio-Inspired Machine Learning du M2 Informatique - IA à l'Université Claude Bernard Lyon 1. Il a été fait en solo et j'ai obtenu une note finale de 17/20. 
 
 # Recherche des hyperparamètres avec puissance infinie
 Si nous avions à disposition une puissance de calcul infinie, il serait possible de faire une recherche exhaustive des hyperparamètres avec un Grid Search par exemple. Cela consiste dans le fait de tester toutes les combinaisons possibles d'hyperparamètres dans une grille définie. Il serait également possible de mettre en place un NAS *Neural Architecture Search* qui permet de chercher les meilleurs hyperparamètres pour un modèle donné. Cependant, cette approche est très couteuse en ressources, et n'est donc pas réalisable dans le cadre du projet.
